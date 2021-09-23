@@ -127,14 +127,7 @@ class DBCommands:
 
     async def db_create_tables(self):
         logging.info("Connecting to db.")
-        create_db_command = open("create_db.sql", "r").read()
         create_db_tables = open("create_tables.sql", "r").read()
-        conn = await asyncpg.connect(user=PG_USER, password=PG_PASS, host=HOST, port=PORT)
-        try:
-            await conn.execute(create_db_command)
-            await conn.close()
-        except:
-            await conn.close()
         conn = await asyncpg.connect(user=PG_USER, password=PG_PASS, host=HOST, port=PORT, database=DATABASE)
         try:
             await conn.execute(create_db_tables)
