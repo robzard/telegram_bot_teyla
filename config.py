@@ -8,8 +8,8 @@
 
 TOKEN = '1998159927:AAGeMUGD7U0EzVvopx09uY6g-l9S0BJhEgc'
 ADMINS = [521793004, 601610220, 195895280]
-HOST = 'ec2-54-155-92-75.eu-west-1.compute.amazonaws.com'
-PG_USER = 'mwkonficlhniwc'
-PG_PASS = '6ca81e5955e034ff91f41ae365c40b0e03d2df960c07677020d284d105f2715e'
+HOST = 'ec2-54-228-99-58.eu-west-1.compute.amazonaws.com'
+PG_USER = 'gvlxymybblkpuk'
+PG_PASS = 'cbab39e99ae1cb33f11f94af5cbf3ed9e42100618396f6df8d63969012452ddc'
 PORT = '5432'
-DATABASE = 'd793rjdfj0nmlq'
+DATABASE = 'd6rpbns39salr'
