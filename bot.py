@@ -192,8 +192,8 @@ async def any_text(message: types.Message):
 
 async def on_startup(db):
     print('start')
-    # for admin in ADMINS:
-    #     await bot.send_message(chat_id=admin, text="Чат-бот запущен.")
+    for admin in ADMINS:
+        await bot.send_message(chat_id=admin, text="Чат-бот запущен.")
 
 
 async def on_shutdown(db):
