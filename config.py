@@ -8,8 +8,8 @@
 
 TOKEN = '1998159927:AAGeMUGD7U0EzVvopx09uY6g-l9S0BJhEgc'
 ADMINS = [521793004, 601610220, 195895280]
-HOST = 'ec2-54-155-92-75.eu-west-1.compute.amazonaws.com'
-PG_USER = 'uxbhlomwnjzdfp'
-PG_PASS = 'b47444f3cc0ec3127e29a475f14d87bf53git add .c5499873e67846a98de3c110a52a6c'
+HOST = '5.53.125.70'
+PG_USER = 'selectel'
+PG_PASS = 'selectel'
 PORT = '5432'
-DATABASE = 'd26sltcfl4vdfr'
+DATABASE = 'selectel'
